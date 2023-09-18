@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: rgb(16, 16, 16);
+    background-size: cover;
+}
+
+nav {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+
+}
+
+#logo {
+    font-size: 35px;
+    font-weight: 700;
+    margin-left: 130px;
+    color: white;
+}
+
+span {
+    color: #eb064e;
+}
+
+nav ul {
+    height: 70px;
+    background-color: black;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    gap: 200px;
+
+}
+
+#kot {
+    margin-left: 130px;
+    color: white;
+    font: 18px;
+}
+
+#but1 {
+    margin-left: 200px;
+    border: none;
+    color: white;
+    background-color: #eb064e;
+    /* font-weight: 600; */
+    cursor: pointer;
+    padding: 9px 18px;
+    border-radius: 50px;
+}
+
+#but2 {
+    border: none;
+    background-color: white;
+    color: black;
+    /* font-weight: 600; */
+    cursor: pointer;
+    padding: 9px 18px;
+    border-radius: 50px;
+    margin: 17px;
+}
+
+#kot:hover {
+    color: #eb064e;
+}
+
+#myself {
+    color: rgb(179, 123, 165);
+    margin-top: 150px;
+    margin-left: 136px;
+}
+
+#name {
+    margin-left: 136px;
+    color: white;
+    margin-top: 4px;
+    font-size: 28px;
+    /* font-weight: 600; */
+}
+
+#work {
+    margin-left: 136px;
+    color: white;
+    margin-top: 24px;
+}
+
+#email {
+    margin-left: 136px;
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    border-color: #eb064e;
+    margin-top: 24px;
+    padding: 6px 30px;
+
+}
+
+#bio {
+    color: white;
+    background-color: #eb064e;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 50px;
+    margin: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#ido {
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+#aboutw {
+    background-color: #191919;
+    height: 55vh;
+}
+
+#bc {
+    padding-top: 100px;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 130px;
+    margin-left: 670px;
+    color: white;
+}
+
+#bx {
+    margin-top: 10px;
+    margin-left: 625px;
+    color: white;
+}
+
+#sop {
+    color: #eb064e;
+}
+
+#para {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 5px;
+    color: rgb(180, 137, 169);
+}
+
+#talk {
+    margin-top: 10px;
+    margin-left: 720px;
+    border: none;
+    padding: 8px 20px;
+    color: white;
+    border-radius: 50px;
+    background-color: #eb064e;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#skills {
+    display: flex;
+    height: 50vh;
+    padding-top: 50px;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    margin-left: 136px;
+}
+
+#list {
+    margin-left: 340px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+#ok {
+    color: #eb064e;
+}
+
+#no {
+    color: #eb064e;
+}
+
+li {
+    margin-top: 10px;
+}
+
+#spo {
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+#si {
+    margin-left: 340px;
+}
+
+#xo {
+    color: #eb064e;
+}
+
+#comp {
+    display: flex;
+    justify-content: space-between;
+    background-color: #191919;
+    height: 55vh;
+    color: white;
+    padding-left: 550px;
+    padding-top: 30px;
+
+}
+
+#tesla {
+    padding: 9px 10px;
+    height: 200px;
+    width: 13vw;
+    margin-top: 110px;
+    background-color: rgb(42, 41, 41);
+    position: absolute;
+    left: 250px;
+    text-align: center;
+}
+
+#openai {
+    height: 200px;
+    width: 13vw;
+    margin-top: 110px;
+    background-color: rgb(42, 41, 41);
+    margin-right: 80px;
+    padding: 9px 10px;
+    position: absolute;
+    left: 500px;
+    text-align: center;
+}
+
+#SpaceX {
+    height: 200px;
+    width: 13vw;
+    margin-top: 110px;
+    background-color: rgb(42, 41, 41);
+    padding: 9px 10px;
+    position: absolute;
+    left: 750px;
+    text-align: center;
+}
+
+#solar {
+    height: 200px;
+    width: 13vw;
+    margin-top: 110px;
+    background-color: rgb(42, 41, 41);
+    position: absolute;
+    left : 1000px;
+    padding: 9px 10px;
+    text-align: center;
+}
+#ai{
+    margin-bottom: 12px;
+}
+#x{
+    margin-bottom: 12px;
+}
+#c{
+    margin-bottom: 12px
+}
+#t{
+    margin-bottom: 12px; 
+}
+#more{
+    margin-top: 15px;
+    background-color: #eb064e;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 600;
+    border-radius: 7px;
+    cursor: pointer;
+}
+#xp{
+    margin-top: 15px;
+    background-color: #eb064e;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 600;
+    border-radius: 7px;
+    cursor: pointer;
+}
+#oo{
+    height: 30vh;
+    background-color: black;
+    color: white;
+}
+#xp:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid #eb064e;
+}
+#more:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid #eb064e;
+}

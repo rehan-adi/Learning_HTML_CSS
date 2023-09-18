@@ -1,0 +1,121 @@
+body {
+    background-color: rgb(18, 193, 18);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+nav ul {
+    height: 70px;
+    background-color: black;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    padding: 0 15px;
+}
+
+.gap {
+    margin-left: 30px;
+}
+
+.logo img {
+    width: 46px;
+    padding: 0 10px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.7rem;
+    color: rgb(117, 219, 117);
+    padding-right: 100px;
+}
+
+.container {
+    height: 72vh;
+    color: white;
+    background-color: black;
+    display: flex;
+    margin: 13px auto;
+    border-radius: 12px;
+    width: 78%;
+    padding: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    background-image: url(bg.jpg);
+}
+
+.buttom {
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#play{
+    font-size: 40px;
+}
+
+#size {
+    width: 600px;
+}
+.icon{
+    margin-top: 14px;
+}
+.icon i {
+    cursor: pointer;
+}
+
+li:hover {
+    color: rgb(117, 219, 117);
+}
+
+.somgItem{
+    height: 50px;
+    width: 80%;
+    background-color: white;
+    color: black;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 14px;
+    margin-right: 20px;
+    padding-right: 30px;
+    padding-left: 4px;
+}
+.somgItem img{
+    width: 46px;
+
+}
+.timespam{
+    margin: 0 6px;
+}
+.songitemcontainer{
+    margin-top: 42px;
+}
+.opacity{
+    position: absolute;
+    left: 30vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.opacity img {
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
