@@ -83,6 +83,7 @@ li {
 
 li:hover {
     color: rgb(117, 219, 117);
+    border-bottom: 2px solid green;
 }
 
 .somgItem{

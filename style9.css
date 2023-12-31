@@ -1,94 +1,171 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background-color: black;
     font: 500 14px / 28px D-DIN-Bold, Arial, Verdana, sans-serif;
 }
-header{
-    margin-top: 33px;
+
+header {
+    margin-top: 35px;
     display: flex;
     align-items: center;
-    margin-left: 88px;
+    margin-left: 115px;
+    position: fixed;
+    z-index: 1;
 }
-svg{
+
+header a.logo {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    margin-left: -90px;
+}
+
+@media (min-width: 1000px) {
+    header svg {
+        width: 230px;
+    }
+
+    header a.logo {
+        margin-right: 40px;
+        position: relative;
+        top: initial;
+        left: initial;
+        margin-left: initial;
+    }
+}
+
+svg {
     fill: white;
 }
-a{
-    padding: 0 13px;
+
+a {
+    padding: 0;
+    margin: 0 13px;
     font-weight: 600;
     font-size: 12px;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
+    position: relative;
+    float: left;
 }
-header svg{
-  width: 190px;
-}
-#right-nav{
-    font-size: 12px;
+
+.nav a::after {
+    content: "";
+    display: block;
+    width: 0;
+    right: 0;
+    height: 1px;
+    background-color: white;
     position: absolute;
-    right: 20px;
+    bottom: 0;
+    transition: width 0.2s;
+}
+
+.nav a:hover::after {
+    right: initial;
+    left: 0;
+    width: 100%;
+}
+
+header svg {
+    width: 220px;
+}
+
+.nav {
+    display: none;
+}
+
+@media (min-width: 1000px) {
+    .nav {
+        display: block;
+    }
+}
+
+#right-nav {
+    font-size: 13px;
+    position: fixed;
+    right: 40px;
     top: 37px;
 }
-header a.logo{
+
+#right-nav:hover {
+    border-bottom: 1px solid white;
+}
+
+header a.logo {
     margin-right: 20px;
 }
 
-#img1{
+#img1 {
     height: 100vh;
     color: white;
-    padding-top: 390px;
+    padding-top: 450px;
     margin-left: 110px;
 }
-#img2{
+
+#img2 {
     height: 100vh;
     color: white;
     margin-top: 390px;
     margin-left: 110px;
 }
-#rl{
+
+#img3 {
+    color: white;
+    padding-top: 500px;
+    margin-left: 110px;
+}
+
+#rl {
     font-size: 20px;
     font-weight: 380;
     text-transform: uppercase;
     margin-bottom: 15px;
 }
-#star{
+
+#star {
     font-size: 45px;
     font-weight: 700;
     text-transform: uppercase;
     margin-top: 0;
 }
-#more{
-    margin-top: 20px;
+
+#more {
+    margin-top: 35px;
     position: absolute;
-    left: 110px;
+    left: 100px;
+    left: 10 0px;
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 600;
-    background-color: black;
     color: white;
-    padding: 17px 32px;
+    padding: 10px 37px;
     border: 2px solid white;
 }
-#more:hover{
+
+#more:hover {
     background-color: white;
     color: black;
 }
-section{
+
+section {
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
-    back
+    background-position: center center;
 }
-#fot{
+
+#fot {
     position: fixed;
     bottom: 0px;
-    height: 10vh;
+    height: 20vh;
     position: relative;
-    background-color: darkorchid;
+    background-color: black;
     color: white;
     display: flex;
     justify-content: center;
@@ -96,10 +173,12 @@ section{
     font: 500 14px / 28px D-DIN-Bold, Arial, Verdana, sans-serif;
 }
 
-#fot span{
+#fot span {
     font-size: 12px;
     margin-right: 30px;
+    color: #FFFFFF;
 }
-#fot a{
+
+#fot a {
     margin-right: 22px;
 }

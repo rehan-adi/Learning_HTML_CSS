@@ -1,0 +1,122 @@
+
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main-container{
+    height: 100vh;
+    width: 100%;
+    
+}
+nav{
+    z-index: 99;
+    color: white;
+    width: 100%;
+    height: 14vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 35px;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+}
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(255, 119, 0, 1), rgba(255, 0, 0, 1));
+}
+
+.main-content h1{
+    font-size: 20vw;
+    position: absolute;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#fanta{
+    z-index: 2;
+}
+.orange{
+    bottom: 10%;
+    right: 35%;
+    position: absolute;
+    z-index: 10;
+}
+.singleorange{
+    position: absolute;
+    left: 35%;
+    z-index: 1;
+    top: 10%;
+}
+.doubbleleaf{
+    position: absolute;
+    right: 0%;
+    top: 15%;
+}
+.leaf1{
+    position: absolute;
+    left: 3%;
+    top: 15%;
+}
+.leaf2{
+    position: absolute;
+    right: 3%;
+    bottom: 10%;
+}
+.two{
+    display: flex;
+    background: linear-gradient(rgba(255, 119, 0, 1), rgba(255, 0, 0, 1));
+}
+.second-div-left{
+    display: flex;
+    height: 100vh;
+    width: 50%;
+}
+.second-div-right{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 50%;
+}
+
+.second-div-right h1{
+   margin-bottom: 18px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.second-div-right p{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.third-div{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    color: #FBF9FC;
+    background-color: #070707;
+    font-size: 50px;
+
+}
+.third-div h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 100px;
+    color: #FBF9FC;
+}
+.span{
+    color: #8F00FF;
+    font-family: 'Inter', sans-serif;
+}
